@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "jetblaze-express"
+  },
+  "targets": {
+    "jetblaze-express": {
+      "hosting": {
+        "website": [
+          "jetblaze-express"
+        ]
+      }
+    }
   }
 }
