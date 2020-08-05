@@ -6,3 +6,25 @@
   * Version: v1.1.0
   * License: Themeforest Standard Licenses: https://themeforest.net/licenses
   */
+  .content-description .destaque{
+    color: white;
+  }
+
+  #morePricePerto,#morePriceMediano,#morePriceLonge{
+    background-color: #131313;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 530px) {
+    #morePricePerto,#morePriceMediano,#morePriceLonge{
+      width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    #morePricePerto,#morePriceMediano,#morePriceLonge{
+      width: 350px;
+    }
+  }
