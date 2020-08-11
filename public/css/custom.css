@@ -10,7 +10,26 @@
     color: white;
   }
 
-  #morePricePerto,#morePriceMediano,#morePriceLonge{
+  .personalizado-color{
+    color: #1df10f !important;
+  }
+
+  .button-scheme.personalizado-bg-color{
+    background-color: #1df10f !important;
+    border: 1px solid #1df10f!important;
+  }
+
+  .btn.button-scheme:focus{
+    background-color: #f1c40f!important;
+    border: 1px solid #f1c40f!important;
+  }
+
+  .btn.button-scheme.personalizado-bg-color:focus{
+    background-color: #1df10f !important;
+    border: 1px solid #1df10f!important;
+  }
+
+  #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
     background-color: #131313;
     height: 300px;
     width: 500px;
@@ -18,13 +37,34 @@
   }
 
   @media only screen and (max-width: 530px) {
-    #morePricePerto,#morePriceMediano,#morePriceLonge{
+    #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
       width: 400px;
     }
   }
 
   @media only screen and (max-width: 355px) {
-    #morePricePerto,#morePriceMediano,#morePriceLonge{
+    #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
       width: 350px;
+    }
+  }
+
+  #morePricePersonalizado{
+    background-color: #131313;
+    height: 370px;
+    width: 500px;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 530px) {
+    #morePricePersonalizado{
+      width: 400px;
+      height: 380px;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    #morePricePersonalizado{
+      width: 350px;
+      height: 390px;
     }
   }
