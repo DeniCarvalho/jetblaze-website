@@ -68,3 +68,16 @@
       height: 390px;
     }
   }
+
+  #title-home-line-1{
+    font-family: Poppins,sans-serif;
+    font-weight: 100;
+  }
+
+  .crisp-client .cc-kv6t .cc-1ada, .crisp-client .cc-kv6t .cc-ew5j:before, .crisp-client .cc-kv6t .cc-ew5j:after{
+    background-color: #f1c40e !important;
+  }
+
+.cc-ve3u{
+    display: none !important;
+  }
