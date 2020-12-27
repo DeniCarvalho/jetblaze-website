@@ -90,7 +90,8 @@
   <!-- Navbar-->
   <nav class="navbar-expand-md navbar fixed-top" id="navbar"><a class="navbar-brand" data-scroll="" href="#home-area">
       <!-- Navbar Logo-->
-      <img class="img-fluid" src="img/img-kitzu-logo.png" alt="Logo"></a>
+      <img class="img-fluid" src="img/img-kitzu-logo.png" alt="Logo">
+    </a>
     <span class="navbar-menu ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" role="button"><span
         class="btn-line"></span></span>
@@ -182,7 +183,7 @@
                 <div class="col-12 col-lg-7 info-content">
                   <div class="content-block">
                     <h2 class="content-subtitle">Qual é a da Jet?</h2>
-                    <h6 class="content-title">A JetBlaze é uma empresa de entregas rápidas, para pequenas encomendas.
+                    <h6 class="content-title">A JetBlaze é uma plataforma de entregas rápidas, para pequenas encomendas.
                     </h6>
                     <div class="content-description">
                       <p>Nascemos com o objetivo de tornar sua experiência com entregas rápidas, a mais simples e eficaz
@@ -196,7 +197,8 @@
                         <strong class="destaque">Mercado Envios Flex</strong>. Optando pelo
                         Mercado
                         Envios Flex possibilitamos a integração da sua conta do Mercado Livre com a nossa plataforma,
-                        dando mais agilidade e flexibilidade nas entregas diárias.</p>
+                        dando mais agilidade e flexibilidade nas entregas diárias.
+                      </p>
                       <p>
                         Na opção de envio Avulso você também terá rastreio total de seus pacotes além de poder agendar a
                         coleta/entrega para um dia específico. Bacana né?!
@@ -476,7 +478,11 @@
         <div class="modal-body col-lg-12">
           Quando suas entregas forem em um raio acima de <b>32 KM</b>, a partir do endereço da coleta, dentro do
           município de <b>São Paulo</b>, elas serão classificadas como <b>MUITO LONGE</b> e então se aplica o valor da
-          categoria <b>LONGE</b> como base e a diferença é cobrada por KM.
+          categoria <b>LONGE</b> como base + a diferença por KM.
+          <!-- <div><b>(TOTAL KM - LONGE KM) * 2 = VALOR TOTAL</b></div> -->
+          <!-- <div><b>Exemplo:</b></div>
+          Se a distância da coleta para a entrega for de <b>35 KM</b>, será cobrado <i>R$30,00 (Longe)</i> + R$6,00 ((35km - 32km) * 2)
+         -->
         </div>
       </div>
     </div>
