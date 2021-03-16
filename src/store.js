@@ -17,7 +17,12 @@ export default new Vuex.Store({
     },
   },
 
-  mutations: {},
+  mutations: {
+    CHECK_MOBILE (state, payload) {
+      const isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone|webOS/i.test(navigator.userAgent)
+      state.isMobile = isMobile
+    },
+  },
   actions: {
 
   },

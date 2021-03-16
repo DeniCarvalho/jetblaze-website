@@ -137,6 +137,7 @@
               <router-link
                 class="btn content-download button-main button-scheme more-btn link"
                 :to="'/como-funciona'"
+                style="margin-bottom: 10px;"
               >
                 Como funciona
               </router-link>
@@ -144,7 +145,7 @@
                 class="btn content-download button-main text-success more-btn"
                 href="https://cliente.jetblaze.com.br/cadastro"
                 target="_blank"
-                style="margin-left: 10px;"
+                style="margin-left: 10px;margin-bottom: 10px;"
               >
                 Criar conta
               </a>
