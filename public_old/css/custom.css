@@ -1,0 +1,92 @@
+/*!
+  * Item: Kitzu
+  * Description: Personal Portfolio Template
+  * Author/Developer: Exill
+  * Author/Developer URL: https://themeforest.net/user/exill
+  * Version: v1.1.0
+  * License: Themeforest Standard Licenses: https://themeforest.net/licenses
+  */
+  .content-description .destaque{
+    color: white;
+  }
+
+  .personalizado-color{
+    color: #1df10f !important;
+  }
+
+  .button-scheme.personalizado-bg-color{
+    background-color: #1df10f !important;
+    border: 1px solid #1df10f!important;
+  }
+
+  .btn.button-scheme:focus{
+    background-color: #f1c40f!important;
+    border: 1px solid #f1c40f!important;
+  }
+
+  .btn.button-scheme.personalizado-bg-color:focus{
+    background-color: #1df10f !important;
+    border: 1px solid #1df10f!important;
+  }
+
+  #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
+    background-color: #131313;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 530px) {
+    #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
+      width: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    #morePricePerto,#morePriceMediano,#morePriceLonge,#morePriceMuitoLonge,#morePricePersonalizado{
+      width: 350px;
+    }
+  }
+
+  #morePricePersonalizado{
+    background-color: #131313;
+    height: 370px;
+    width: 500px;
+    padding: 20px;
+  }
+
+  @media only screen and (max-width: 530px) {
+    #morePricePersonalizado{
+      width: 400px;
+      height: 380px;
+    }
+  }
+
+  @media only screen and (max-width: 355px) {
+    #morePricePersonalizado{
+      width: 350px;
+      height: 390px;
+    }
+  }
+
+  #title-home-line-1{
+    font-family: Poppins,sans-serif;
+    font-weight: 100;
+  }
+
+  .crisp-client .cc-kv6t .cc-1ada, .crisp-client .cc-kv6t .cc-ew5j:before, .crisp-client .cc-kv6t .cc-ew5j:after{
+    background-color: #f1c40e !important;
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; 
+}
+
+.cc-ve3u{
+    display: none !important;
+  }
