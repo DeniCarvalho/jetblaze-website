@@ -22,6 +22,11 @@ export default new Vuex.Store({
       const isMobile = /iPhone|iPad|iPod|Android|BlackBerry|Windows Phone|webOS/i.test(navigator.userAgent)
       state.isMobile = isMobile
     },
+    EMIT_EVENT (state, payload) {
+      window.dataLayer.push({
+        event: payload,
+      })
+    },
   },
   actions: {
 

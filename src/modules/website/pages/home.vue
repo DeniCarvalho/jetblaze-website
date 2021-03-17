@@ -79,6 +79,7 @@
           </li>
           <li class="nav-item">
             <a
+              id="btn_rastreio"
               class="nav-link"
               href="https://rastreio.jetblaze.com.br"
               target="_blank"
@@ -96,7 +97,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="btn content-download button-main text-success more-btn"
+              class="btn content-download button-main text-success more-btn btn-cadastro"
               href="https://cliente.jetblaze.com.br/cadastro"
               target="_blank"
             >Cadastro</a>
@@ -146,6 +147,7 @@
                 href="https://cliente.jetblaze.com.br/cadastro"
                 target="_blank"
                 style="margin-left: 10px;margin-bottom: 10px;"
+                @click="$store.commit('EMIT_EVENT', 'BTN_CADASTRO')"
               >
                 Criar conta
               </a>
