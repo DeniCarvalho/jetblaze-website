@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="view-home">
     <!-- Navbar-->
     <nav
       id="navbar"

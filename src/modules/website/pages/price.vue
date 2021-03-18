@@ -1,5 +1,8 @@
 <template>
-  <div class="theme-dark">
+  <div
+    id="view-valores"
+    class="theme-dark"
+  >
     <!-- About lightbox-->
     <div
       id="about"

@@ -1,5 +1,8 @@
 <template>
-  <div class="theme-dark">
+  <div
+    id="view-como-funciona"
+    class="theme-dark"
+  >
     <!-- About lightbox-->
     <div
       id="about"
@@ -47,7 +50,10 @@
                     >
                   </div>
                   <!-- Content part-->
-                  <div class="col-12 col-lg-7 info-content">
+                  <div
+                    id="section-apresentacao"
+                    class="col-12 col-lg-7 info-content"
+                  >
                     <div class="content-block">
                       <h2 class="content-subtitle">
                         Qual é a da Jet?
@@ -129,7 +135,10 @@
                     </div>
                   </div>
                 </div>
-                <div class="row">
+                <div
+                  id="section-servicos"
+                  class="row"
+                >
                   <!-- Single service-->
                   <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-service">
@@ -216,7 +225,7 @@
               <!-- Resume section-->
               <div
                 id="resume"
-                class="pricing-section single-section"
+                class="pricing-section single-section section-rotina"
               >
                 <div class="row">
                   <div class="col-12">
@@ -317,7 +326,10 @@
               </div>
 
               <!-- Pricing section-->
-              <div class="pricing-section single-section">
+              <div
+                id="section-valores"
+                class="pricing-section single-section"
+              >
                 <div class="row">
                   <div class="col-12">
                     <div class="section-heading">
@@ -556,7 +568,6 @@
     name: 'WebsiteAbout',
   }
 </script>
-
 <style>
 .lightbox-wrapper-custom {
   position: fixed !important;

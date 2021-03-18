@@ -1,5 +1,8 @@
 <template>
-  <div class="theme-dark">
+  <div
+    id="view-faq"
+    class="theme-dark"
+  >
     <!-- About lightbox-->
     <div
       id="about"
@@ -57,7 +60,10 @@
                       :key="i"
                       style="background:transparent;color:white;"
                     >
-                      <v-expansion-panel-header style="text-align: left">
+                      <v-expansion-panel-header
+                        style="text-align: left"
+                        class="question-faq"
+                      >
                         <h5>
                           {{ item.title }}
                         </h5>

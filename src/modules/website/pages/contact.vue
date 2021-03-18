@@ -30,7 +30,10 @@
                 </div>
               </div>
               <!-- Contact section-->
-              <div class="contact-section single-section">
+              <div
+                id="view-contato"
+                class="contact-section single-section"
+              >
                 <div class="row">
                   <!-- Contact form-->
                   <div class="col-12 col-lg-7">
