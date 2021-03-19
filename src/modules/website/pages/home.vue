@@ -34,9 +34,7 @@
       >
         <!-- Navbar menu-->
         <ul class="navbar-nav ml-auto noselect">
-          <li
-            class="nav-item"
-          >
+          <li class="nav-item">
             <router-link
               class="nav-link"
               :to="'/como-funciona'"
@@ -86,7 +84,8 @@
             ><i
               class="icon ion-md-locate
           "
-            /> Rastreamento</a>
+            />
+              Rastreamento</a>
           </li>
           <li class="nav-item">
             <a
@@ -118,7 +117,9 @@
               <span id="title-home-line-1">
                 <span>Solução para</span>
                 <br>
-                <span id="title-home-line-2">entregas
+                <span
+                  id="title-home-line-2"
+                >entregas
                   <span style="font-weight: 600;">rápidas</span>
                 </span>
               </span>
@@ -143,17 +144,16 @@
                 Como funciona
               </router-link>
               <a
-                class="btn content-download button-main text-success more-btn"
+                class="btn content-download button-main text-success more-btn btn-cadastro"
                 href="https://cliente.jetblaze.com.br/cadastro"
                 target="_blank"
                 style="margin-left: 10px;margin-bottom: 10px;"
-                @click="$store.commit('EMIT_EVENT', 'BTN_CADASTRO')"
               >
                 Criar conta
               </a>
             </div>
           </div>
-        <!-- -webkit-font-smoothing: antialiased;
+          <!-- -webkit-font-smoothing: antialiased;
         -webkit-text-size-adjust: none;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
         -moz-osx-font-smoothing: grayscale;
@@ -178,7 +178,7 @@
             height="60"
             alt="mercado-envios-flex"
           >
-        <!-- <ul class="list-unstyled social-icons">
+          <!-- <ul class="list-unstyled social-icons">
           <li><a href="#0"><i class="icon ion-logo-twitter"></i></a></li>
           <li><a href="#0"><i class="icon ion-logo-facebook"></i></a></li>
           <li><a href="#0"><i class="icon ion-logo-linkedin"></i></a></li>
@@ -197,6 +197,4 @@
   }
 </script>
 
-<style>
-
-</style>
+<style></style>

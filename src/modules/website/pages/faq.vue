@@ -59,12 +59,14 @@
                       v-for="(item,i) in questions"
                       :key="i"
                       style="background:transparent;color:white;"
+                      class="questions-faq-list"
+                      @click="$store.commit('EMIT_EVENT', { event: 'VISUALIZOU_PERGUNTA_FAQ', titleQuestion: item.title })"
                     >
                       <v-expansion-panel-header
                         style="text-align: left"
                         class="question-faq"
                       >
-                        <h5>
+                        <h5 class="question-faq-title">
                           {{ item.title }}
                         </h5>
                         <!-- <template v-slot:actions>
@@ -145,6 +147,8 @@
           },
         ],
       }
+    },
+    methods: {
     },
   }
 </script>

@@ -23,9 +23,8 @@ export default new Vuex.Store({
       state.isMobile = isMobile
     },
     EMIT_EVENT (state, payload) {
-      window.dataLayer.push({
-        event: payload,
-      })
+      var dataLayer = window.dataLayer || []
+      dataLayer.push(payload)
     },
   },
   actions: {
