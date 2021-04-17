@@ -47,7 +47,7 @@
                         Nossos preços
                       </h2>
                       <div class="section-description m-0">
-                        O preço cobrado pode variar conforme a distância entre o endereço da coleta e o endereço de destino.
+                        O preço cobrado pode variar conforme a distância entre o endereço da coleta e o endereço do destino.
                       </div>
                       <div
                         class="section-description m-0"
@@ -56,11 +56,11 @@
                         As faturas são geradas quinzenalmente, ou seja:
                         <p class="pb-1 mb-0">
                           - Se entregas foram realizadas <b style="text-decoration: underline;">entre os dias 01 e
-                            15 do mês vigente</b>, sua fatura <b style="text-decoration: underline;">vence dia 20</b>
+                            15 do mês vigente</b>, sua fatura <b style="text-decoration: underline;">vence no dia 20</b>;
                         </p>
                         <p class="pt-0 mt-0">
                           - Se entregas foram realizadas <b style="text-decoration: underline;">entre os dias 16 e
-                            o último dia do mês vigente</b>, sua fatura <b style="text-decoration: underline;">vence dia 05 do próximo mês</b>
+                            o último dia do mês vigente</b>, sua fatura <b style="text-decoration: underline;">vence no dia 05 do próximo mês</b>;
                         </p>
                         <!-- A cobrança é quinzenal com vencimentos
                         todo dia <b>05</b> (<b style="text-decoration: underline;">entregas entre 16 e
@@ -119,7 +119,7 @@
                       <div class="col-lg-12">
                         <div class="single-plan text-left p-2">
                           <p><b>Para entregas no mesmo dia:</b></p>
-                          <p>Você pode cancelar gratuitamente qualquer pedido que não tenha sido coletado. Após coletado não é possível cancelar, nesse caso será cobrado o valor total da corrida, isso porque por segurança o entregador não terá sua atenção desviada enquanto se desloca ao local de entrega, fazendo com que ele só veja o cancelamento no momento em que parar, que pode ser já no endereço destinado. </p>
+                          <p>Você pode cancelar gratuitamente qualquer pedido que não tenha sido coletado. Após coletado, para cancelar será cobrado o valor total da corrida. Por segurança o entregador não terá sua atenção desviada enquanto se desloca ao local de entrega, fazendo com que ele só veja o cancelamento no momento em que parar, que pode ser já no endereço destinado. Se isso acontecer ele retornará ao endereço de coleta para devolver o pacote.</p>
                           <p><b>Devoluções:</b></p>
                           <p>Por padrão, todas as nossas corridas oferecem uma 2ª tentativa de entrega. Se após a 2ª tentativa o entregador não consiga concluir a entrega, ele devolverá o pacote no endereço da coleta. Nesse caso será o cobrado o valor total da corrida. Mas se caso o entregador não consiga realizar a 2ª tentativa, nenhum valor será cobrado na devolução.</p>
                         </div>
