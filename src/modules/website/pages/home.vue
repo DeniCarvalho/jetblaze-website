@@ -42,16 +42,16 @@
               Como Funciona
             </router-link>
           </li>
-          <!-- <li
+          <li
             class="nav-item"
           >
             <router-link
               class="nav-link"
               :to="'/valores'"
             >
-              Valores
+              Preços
             </router-link>
-          </li> -->
+          </li>
           <li class="nav-item">
             <router-link
               class="nav-link"
