@@ -42,9 +42,7 @@
               Como Funciona
             </router-link>
           </li>
-          <li
-            class="nav-item"
-          >
+          <li class="nav-item">
             <router-link
               class="nav-link"
               :to="'/valores'"
@@ -69,11 +67,12 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a
+            <router-link
               class="nav-link"
-              href="https://entregador.jetblaze.com.br/cadastro"
-              target="_blank"
-            >Quero entregar</a>
+              :to="'/entregador'"
+            >
+              Quero entregar
+            </router-link>
           </li>
           <li class="nav-item">
             <a
@@ -194,6 +193,34 @@
 <script>
   export default {
     name: 'WebsiteHome',
+    head: {
+      title: {
+        inner: 'Jetblaze Express',
+        separator: '-',
+        complement: 'Entregas rápidas | Mercado Envios Flex',
+      },
+      meta: [
+        {
+          name: 'description',
+          content:
+            'Plataforma para entregas de encomendas no mesmo dia. Integrada com o Mercado Envios Flex, em poucos cliques seus pedidos de envio são registrados',
+          id: 'desc',
+        },
+        { name: 'application-name', content: 'Jetblaze Express' },
+        // Twitter
+        { name: 'twitter:title', content: 'Jetblaze Express - Entregas rápidas | Mercado Envios Flex' },
+        // with shorthand
+        { n: 'twitter:description', c: 'Plataforma para entregas de encomendas no mesmo dia. Integrada com o Mercado Envios Flex, em poucos cliques seus pedidos de envio são registrados' },
+        // Google+ / Schema.org
+        { itemprop: 'name', content: 'Jetblaze Express - Entregas rápidas | Mercado Envios Flex' },
+        { itemprop: 'description', content: 'Plataforma para entregas de encomendas no mesmo dia. Integrada com o Mercado Envios Flex, em poucos cliques seus pedidos de envio são registrados' },
+        // with shorthand
+        { p: 'og:image', c: 'https://jetblaze.com.br/favicon.png' },
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://jetblaze.com.br' },
+      ],
+    },
   }
 </script>
 

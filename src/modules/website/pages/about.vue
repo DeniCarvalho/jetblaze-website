@@ -520,6 +520,29 @@
 <script>
   export default {
     name: 'WebsiteAbout',
+    head: {
+      title: {
+        inner: 'Como Funciona',
+        separator: '-',
+        complement: 'Jetblaze Express',
+      },
+      meta: [
+        { name: 'description', content: 'Saiba como funciona a plataforma e como será nossa rotina', id: 'desc' },
+        { name: 'application-name', content: 'Jetblaze Express' },
+        // Twitter
+        { name: 'twitter:title', content: 'Como Funciona - Jetblaze Express' },
+        // with shorthand
+        { n: 'twitter:description', c: 'Saiba como funciona a plataforma e como será nossa rotina' },
+        // Google+ / Schema.org
+        { itemprop: 'name', content: 'Como Funciona - Jetblaze Express' },
+        { itemprop: 'description', content: 'Saiba como funciona a plataforma e como será nossa rotina' },
+        // with shorthand
+        { p: 'og:image', c: 'https://jetblaze.com.br/favicon.png' },
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://jetblaze.com.br/como-funciona' },
+      ],
+    },
   }
 </script>
 <style>

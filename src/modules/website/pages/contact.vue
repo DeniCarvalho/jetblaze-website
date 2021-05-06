@@ -146,7 +146,29 @@
 
 <script>
   export default {
-
+    head: {
+      title: {
+        inner: 'Contato',
+        separator: '-',
+        complement: 'Jetblaze Express',
+      },
+      meta: [
+        { name: 'description', content: 'Entre em contato a qualquer momento através de nossos canais de atendimento', id: 'desc' },
+        { name: 'application-name', content: 'Jetblaze Express' },
+        // Twitter
+        { name: 'twitter:title', content: 'Contato - Jetblaze Express' },
+        // with shorthand
+        { n: 'twitter:description', c: 'Entre em contato a qualquer momento através de nossos canais de atendimento' },
+        // Google+ / Schema.org
+        { itemprop: 'name', content: 'Contato - Jetblaze Express' },
+        { itemprop: 'description', content: 'Entre em contato a qualquer momento através de nossos canais de atendimento' },
+        // with shorthand
+        { p: 'og:image', c: 'https://jetblaze.com.br/favicon.png' },
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://jetblaze.com.br/contato' },
+      ],
+    },
   }
 </script>
 

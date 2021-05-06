@@ -16,7 +16,9 @@ import store from './store'
 // import './plugins/vue-input-facade'
 // import './plugins/vue-awesome-countdown'
 // import './plugins/vue-firebase'
+import './plugins/vue-head'
 import vuetify from './plugins/vuetify'
+
 import i18n from './i18n'
 import VueGtag from 'vue-gtag'
 
